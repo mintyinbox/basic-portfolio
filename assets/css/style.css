@@ -116,28 +116,31 @@ hr {
   border-top: 2px solid rgba(51, 3, 3, 0.4);
   font-family: 'Roboto', sans-serif;
 }
-
+img{
+  height: 80%;
+  width: 80%;
+}
 .creationsRight1, .overLapTextRight1 {
-  position: absolute;
+  display: inline;
 }
 
 .creationsRight2, .overLapTextRight2 {
-  position: absolute;
-  top: 245px;
+  display: inline;
+  /* top: 245px; */
 }
 
 .creationsLeft1, .overLapTextLeft1 {
-  position: absolute;
+  display: inline;
 }
 
 .creationsLeft2, .overLapTextLeft2 {
-  position: absolute;
-  top: 245px;
+  display: inline;
+  /* top: 245px; */
 }
 
 .creationsLeft3, .overLapTextLeft3 {
-  position: absolute;
-  top: 490px;
+  display: inline;
+  /* top: 490px; */
 }
 
 .creationsRight1, .creationsRight2, .creationsRight3, .creationsLeft1, .creationsLeft2, .creationsLeft3 {
@@ -191,8 +194,8 @@ label {
   }
 }
 
-@media screen and (max-width: 670px) {
-  .container {
+@media screen and (max-width: 375px) {
+  .portfolioInfo {
     margin-top: 35px;
     margin-left: 0;
   }
